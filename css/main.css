@@ -28,8 +28,7 @@ body{
 
 .topNav a.active{
     background-color: #04AA6d;
-    color: #ffffff;
-
+    color: #ffffff
 }
 
 header img{
@@ -40,4 +39,22 @@ header img{
     margin-top: 2em;
     opacity: 0.75;
     border-radius: 12px;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color:#04AA6d;
+    text-align: justify;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.tex{
+    padding-left: 2em;
+    padding-right: 2em;
 }
