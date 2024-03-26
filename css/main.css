@@ -58,6 +58,7 @@ h1{
     padding-left: 2em;
     padding-right: 2em;
 }
+
 .imgTextOverlay{
     position: relative;
     text-align:center;
@@ -66,7 +67,7 @@ h1{
 }
 
 .imgTextOverlay img{
-width: 100%;
+   width: 100%;
 }
 
 .bottomLeft{
@@ -122,16 +123,16 @@ filter: none;
 }
 
 .overlay{
-position: absolute;
-top:0;
-bottom:0;
-left:0;
-right:0;
-height:100%;
-width:100%;
-opacity: 0;
-transition: .5s ease;
-background-color: #04AA6d;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    height:100%;
+    width:100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #04AA6d;
 }
 
 .container:hover .overlay{
